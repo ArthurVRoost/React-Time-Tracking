@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.divPersonnes{
+    height: 550px;
+    margin-left: 10%;
+    width: 270px;
+    margin-top: 6%;
+    background-color: #1E204B;
+    border-radius: 15px;
+}
+.divPersonnesDiv1{
+    background-color: #5746EA;
+    border-radius: 15px;
+    height: 340px;
+}
+.divPersonnesImg{
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.divPersonnesP{
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 15%;
+    font-weight: 0;
+    color: rgba(255, 255, 255, 0.468);
+    font-family:"Rubik";
+    font-size: 14px;
+    
+}
+.divPersonnesH1{
+    margin-left: 10%;
+    margin-top: 0;
+    padding: 0;
+    font-family: "Rubik";
+    font-weight: 200;
+}
+.divPersonnesH2{
+    font-family: "Rubik";
+    margin-left: 10%;
+    font-weight: 100;
+    font-size: 18px;
+    padding-bottom: 2%;
+    color: rgba(255, 255, 255, 0.468);
+    cursor: pointer;
+}
+.topH2{
+    padding-top: 10%;
+}
