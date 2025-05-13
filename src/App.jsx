@@ -1,3 +1,4 @@
+// IMPORTS
 import { useState } from 'react';
 import data from './data/data.json';
 import './App.css'
