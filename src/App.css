@@ -8,8 +8,19 @@ body{
 }
 .divApp{
   display: flex;
+  transition: background-color 0.5s ease;
 }
-
+.light-mode{
+  background-color: white;
+  z-index: -2;
+}
+.fa-sun{
+  display: flex;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50%;
+  margin-left: 90%;
+}
 @media (max-width: 576px) {
   .divApp{
     flex-direction: column;
