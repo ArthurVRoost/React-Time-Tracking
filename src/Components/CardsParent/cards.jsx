@@ -15,21 +15,21 @@ export default function Cards({activePeriod, data}) {
 
     const getDescription = (activity, period) =>{
         const previousTime = activity.timeframes[period].previous
-        let LeTemps;
+        let timeframe;
         switch(period) {
             case "daily":
-                LeTemps= "Yesterday";
+                timeframe= "Yesterday";
                 break;
             case "weekly":
-                LeTemps = "Last Week";
+                timeframe = "Last Week";
                 break;
             case "monthly":
-                LeTemps = "Last Month"
+                timeframe = "Last Month"
                 break;
             default:
-                LeTemps = "Previous"
+                timeframe = "Previous"
         }
-        return `${LeTemps} - ${previousTime}hrs`
+        return `${timeframe} - ${previousTime}hrs`
     }
     return(
         <>
