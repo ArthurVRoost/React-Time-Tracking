@@ -46,6 +46,9 @@
     color: rgba(255, 255, 255, 0.468);
     cursor: pointer;
 }
+.divPersonnesH2:hover{
+    color: white;
+}
 .topH2{
     padding-top: 10%;
 }
