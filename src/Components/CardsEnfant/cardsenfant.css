@@ -1,0 +1,70 @@
+.divEnfantDiv1{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    height: 60px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+.work{
+    background-color: hsl(15, 100%, 70%);
+}
+.play{
+    background-color: hsl(195, 74%, 62%);
+}
+.study{
+    background-color:hsl(348, 100%, 68%) ;
+}
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+}
+.social{
+    background-color:hsl(264, 64%, 52%) ;
+}
+.self-care{
+    background-color:hsl(43, 84%, 65%) ;
+}
+.divEnfant{
+    width: 300px;
+    
+}
+.divEnfantImg{
+    margin-right: 5%;
+}
+.divEnfantDiv2{
+    background-color: #1E204B;
+    border-radius: 15px;
+    height: 200px;
+    position: relative;
+    margin-top: -5%;
+    padding-left: 10%;
+}
+.divEnfantH3{
+    margin-top: 6%;
+    font-family: "Rubik";
+    font-weight: 100;
+}
+.divEnfantDiv2Div{
+    display: flex;
+    align-content: center;
+}
+
+.divEnfantspan{
+    margin-left: 55%;
+    font-size: 30px;
+}
+.divEnfantP{
+    color: rgba(255, 255, 255, 0.468); 
+    font-family: "Rubik";
+    font-weight: 100;
+}
+.divEnfantH1{
+    font-size: 50px;
+    margin: 0;
+    padding-top: 5%;
+    font-family: "Rubik";
+    font-weight: 100;
+}
