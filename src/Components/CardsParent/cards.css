@@ -1,0 +1,8 @@
+.divCards1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
