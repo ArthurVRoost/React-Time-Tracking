@@ -1,20 +1,21 @@
+import { useState } from 'react';
 import data from './data/data.json';
 import './App.css'
 import Personnes from './Components/Personnes/Personnes';
-import CardsEnfant from './Components/CardsEnfant/CardsEnfant';
 import Cards from './Components/CardsParent/cards';
 
+
 function App() {
-  
+  const [activePeriod, setActivePeriod] = useState("weekly")
 
   return (
     <>
     <div className='divApp'>
-      <Personnes/>
-      <Cards/>
+      <Personnes activePeriod={activePeriod} setActivePeriod={setActivePeriod}/>
+      <Cards activePeriod={activePeriod} data={data}/>
     </div>
     
-      {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
+
     </>
   )
 }
