@@ -9,8 +9,11 @@ export default function Personnes({ activePeriod, setActivePeriod }) {
         <div className='divPersonnes'>
             <div className='divPersonnesDiv1'>
                 <img className='divPersonnesImg' src="../../src/assets/images/image-jeremy.png" alt="image de jeremey ce beau gosse afou" />
-                <p className='divPersonnesP'>Report for</p>
-                <h1 className='divPersonnesH1'>Jeremy <br />Robson</h1>
+                <div className='personneDiv'>
+                    <p className='divPersonnesP'>Report for</p>
+                    <h1 className='divPersonnesH1'>Jeremy <br />Robson</h1>
+                </div>
+                
             </div>
             <div className='divPersonnesDiv2'>
                 <h2 className= "divPersonnesH2" onClick={()=> handlePeriodClick("daily")} >Daily</h2>

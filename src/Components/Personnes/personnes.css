@@ -55,3 +55,22 @@
 .divPersonnesDiv2{
     padding-top: 15%;
 }
+
+@media (max-width: 576px) {
+    .divPersonnesDiv1{
+        display: flex;
+        height: 200px;
+    }
+    .personneDiv{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .divPersonnesDiv2{
+        display: flex;
+        margin-top: -10%;
+        margin-left: 15%;
+    }
+    .divPersonnes{
+        height: 300px;
+    }
+}

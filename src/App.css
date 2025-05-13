@@ -9,3 +9,9 @@ body{
 .divApp{
   display: flex;
 }
+
+@media (max-width: 576px) {
+  .divApp{
+    flex-direction: column;
+  }
+}
