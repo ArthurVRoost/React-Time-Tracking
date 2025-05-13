@@ -55,6 +55,7 @@
 .divEnfantspan{
     margin-left: 55%;
     font-size: 30px;
+    cursor: pointer;
 }
 .divEnfantP{
     color: rgba(255, 255, 255, 0.468); 
