@@ -1,7 +1,7 @@
 // IMPORTS
 import { useState } from "react";
 import './cardsenfant.css'
-
+// FONCTIONS
 export default function CardsEnfant({titre, heures, description, background, icon, image}) {
     return(
         <>

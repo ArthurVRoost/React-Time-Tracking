@@ -1,6 +1,7 @@
 // IMPORTS
 import { useState } from 'react'
 import './personnes.css'
+// FONCTIONS
 export default function Personnes({ activePeriod, setActivePeriod }) {
     const handlePeriodClick = (period) =>{
         setActivePeriod(period)

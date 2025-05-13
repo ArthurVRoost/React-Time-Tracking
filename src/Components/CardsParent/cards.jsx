@@ -2,6 +2,7 @@
 import { useState } from "react";
 import './cards.css'
 import CardsEnfant from "../CardsEnfant/CardsEnfant";
+// FONCTIONS
 export default function Cards({activePeriod, data}) {
     const activityImages = {
         "Work": "../../src/assets/images/icon-work.svg",

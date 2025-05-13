@@ -6,7 +6,7 @@ import Personnes from './Components/Personnes/Personnes';
 import Cards from './Components/CardsParent/cards';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
-
+// FONCTIONS
 function App() {
   const [activePeriod, setActivePeriod] = useState("weekly")
   const [lightMode, setLightMode] = useState(false)
