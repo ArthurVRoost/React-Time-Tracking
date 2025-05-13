@@ -13,8 +13,11 @@ export default function CardsEnfant({titre, heures, description, background, ico
                     <h3 className="divEnfantH3">{titre}</h3>
                     <span className="divEnfantspan">...</span>
                 </div>
-                <h1 className="divEnfantH1"> {heures} </h1>
-                <p className="divEnfantP">{description}</p>
+                <div className="enfantDiv">
+                    <h1 className="divEnfantH1"> {heures} </h1>
+                    <p className="divEnfantP">{description}</p>
+                </div>
+                
             </div>
         </div>
         </>

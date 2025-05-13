@@ -72,3 +72,29 @@
     font-family: "Rubik";
     font-weight: 100;
 }
+
+@media (max-width: 576px) {
+    .enfantDiv{
+        display: flex;
+        gap: 40%;
+        align-items: center;
+    }
+    .divEnfantH1{
+        font-size: 35px;
+    }
+    .divEnfantDiv2{
+        height: 150px;
+    }
+    .divEnfantP{
+        font-size: 15px;
+    }
+    .divEnfant{
+        width: 450px;
+        margin-left: 5%;
+        margin-bottom: -10%;
+    }
+    .divEnfantspan{
+        margin-left: 70%;
+        margin-top: 3%;
+    }
+}
