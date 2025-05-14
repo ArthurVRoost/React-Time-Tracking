@@ -20,7 +20,7 @@ export default function Cards({activePeriod, data}) {
     }
     // SWITCH pour afficher le bon texte dependant de quel period est active
     const getDescription = (activity, period) =>{
-        const previousTime = activity.timeframes[period].previous
+        const tempsPrecedent = activity.timeframes[period].previous
         let timeframe;
         switch(period) {
             case "daily":
@@ -35,7 +35,7 @@ export default function Cards({activePeriod, data}) {
             default:
                 timeframe = "Previous"
         }
-        return `${timeframe} - ${previousTime}hrs`
+        return `${timeframe} - ${tempsPrecedent}hrs`
     }
     return(
         <>
