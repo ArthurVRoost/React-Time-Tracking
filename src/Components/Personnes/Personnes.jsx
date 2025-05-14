@@ -1,6 +1,7 @@
 // IMPORTS
 import { useState } from 'react'
 import './personnes.css'
+import Photo from "../../assets/images/image-jeremy.png"
 // FONCTIONS
 export default function Personnes({ activePeriod, setActivePeriod }) {
     const handlePeriodClick = (period) =>{
@@ -10,7 +11,7 @@ export default function Personnes({ activePeriod, setActivePeriod }) {
         <>
         <div className='divPersonnes'>
             <div className='divPersonnesDiv1'>
-                <img className='divPersonnesImg' src="../../src/assets/images/image-jeremy.png" alt="image de jeremey ce beau gosse afou" />
+                <img className='divPersonnesImg' src={Photo} alt="image de jeremey ce beau gosse afou" />
                 <div className='personneDiv'>
                     <p className='divPersonnesP'>Report for</p>
                     <h1 className='divPersonnesH1'>Jeremy <br />Robson</h1>

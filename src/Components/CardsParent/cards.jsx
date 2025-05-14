@@ -2,15 +2,21 @@
 import { useState } from "react";
 import './cards.css'
 import CardsEnfant from "../CardsEnfant/CardsEnfant";
+import Work from "/src/assets/images/icon-work.svg";
+import Play from "/src/assets/images/icon-play.svg";
+import Study from "/src/assets/images/icon-study.svg";
+import Exercise from "/src/assets/images/icon-exercise.svg";
+import Social from "/src/assets/images/icon-social.svg";
+import SelfCare from "/src/assets/images/icon-self-care.svg";
 // FONCTIONS
 export default function Cards({activePeriod, data}) {
     const activityImages = {
-        "Work": "../../src/assets/images/icon-work.svg",
-        "Play": "../../src/assets/images/icon-play.svg",
-        "Study": "../../src/assets/images/icon-study.svg",
-        "Exercise": "../../src/assets/images/icon-exercise.svg",
-        "Social": "../../src/assets/images/icon-social.svg",
-        "Self Care": "../../src/assets/images/icon-self-care.svg"
+        "Work": (`${Work}`),
+        "Play": (`${Play}`),
+        "Study": (`${Study}`),
+        "Exercise": (`${Exercise}`),
+        "Social": (`${Social}`),
+        "Self Care": (`${SelfCare}`)
     }
 
     const getDescription = (activity, period) =>{

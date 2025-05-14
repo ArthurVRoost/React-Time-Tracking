@@ -15,11 +15,14 @@ function App() {
   }
   return (
     <>
+    <div className={`${lightMode ? 'light-mode' : ''}`}>
     <FontAwesomeIcon className='fa-sun' icon={faSun} onClick={toggleTheme} />
-    <div className={`divApp ${lightMode ? 'light-mode' : ''}`}>
+    <div className="divApp">
       <Personnes activePeriod={activePeriod} setActivePeriod={setActivePeriod}/>
       <Cards activePeriod={activePeriod} data={data}/>
     </div>
+    </div>
+    
     
 
     </>
