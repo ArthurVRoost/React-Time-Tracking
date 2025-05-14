@@ -17,7 +17,7 @@ function App() {
   }
   return (
     <>
-    <div className={`${lightMode ? 'light-mode' : ''}`}>
+    <div className={`bg ${lightMode ? 'light-mode' : ''}`}>
       <FontAwesomeIcon className='fa-sun' icon={faSun} onClick={toggleTheme} />
       <div className="divApp">
         <Personnes activePeriod={activePeriod} setActivePeriod={setActivePeriod}/>

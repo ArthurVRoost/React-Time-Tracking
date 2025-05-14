@@ -8,7 +8,10 @@ body{
 }
 .divApp{
   display: flex;
-  transition: background-color 0.5s ease;
+
+}
+.bg{
+  transition: background-color 1s ease;
 }
 .light-mode{
   background-color: hsl(236, 100%, 87%)
