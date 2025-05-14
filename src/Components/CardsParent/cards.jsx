@@ -18,7 +18,7 @@ export default function Cards({activePeriod, data}) {
         "Social": (`${Social}`),
         "Self Care": (`${SelfCare}`)
     }
-
+    // SWITCH pour afficher le bon texte dependant de quel period est active
     const getDescription = (activity, period) =>{
         const previousTime = activity.timeframes[period].previous
         let timeframe;
@@ -40,7 +40,9 @@ export default function Cards({activePeriod, data}) {
     return(
         <>
         <div className="divCards1">
+            {/* .map va boucler sur chaque element pour créer les 6 cartes grace a l'index */}
             {data.map((activity, index)=>{
+                // sans .replace() la carte self-care marcherait pas
                 const activityClass = activity.title.toLowerCase().replace(" ", "-");
                 return(
                     <CardsEnfant key={index} background={`divEnfantDiv1 ${activityClass}`} icon="divEnfantImg" image={activityImages[activity.title]} titre={activity.title} heures={`${activity.timeframes[activePeriod].current}hrs`} description={getDescription(activity, activePeriod)} />
